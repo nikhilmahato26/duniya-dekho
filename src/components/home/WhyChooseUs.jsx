@@ -38,7 +38,7 @@ export function WhyChooseUs() {
           <Reveal
             direction="up"
             delay={0.15}
-            className="absolute -bottom-8 right-4 w-[15.5rem] sm:right-8"
+            className="absolute -bottom-10 right-4 w-[14.5rem] sm:-right-4 lg:-right-8"
           >
             <div className="rounded-3xl bg-gold-400 p-5 text-center shadow-[0_24px_50px_-24px_rgba(245,172,0,0.9)]">
               <span className="mx-auto grid size-11 place-items-center rounded-full bg-navy-900/10 text-navy-900">

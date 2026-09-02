@@ -36,7 +36,7 @@ export function CtaBanner() {
             </p>
           </div>
 
-          <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row lg:flex-col xl:flex-row">
+          <div className="flex w-full shrink-0 flex-col gap-3 sm:w-auto sm:flex-row lg:w-64 lg:flex-col">
             <Button asChild variant="primary" size="lg">
               <a
                 href={whatsappLink(
@@ -54,7 +54,7 @@ export function CtaBanner() {
                 <Phone className="size-4" /> {site.primaryPhone}
               </a>
             </Button>
-            <Button asChild variant="glass" size="lg" className="lg:hidden xl:inline-flex">
+            <Button asChild variant="glass" size="lg">
               <Link to="/customized-tour">
                 Custom Tour <ArrowRight className="size-4" />
               </Link>

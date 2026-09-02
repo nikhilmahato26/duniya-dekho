@@ -82,7 +82,7 @@ export const destinations = [
 export const teamValues = [
   {
     title: 'Our Story',
-    text: 'Duniya Dekho Travels began in Agra with a simple belief — that a good trip is planned by someone who actually picks up the phone. What started as ticketing for neighbours has grown into full itineraries across India and eighteen countries, still run with the same hands-on care.',
+    text: 'Duniya Dekho Travels began in Agra with a simple belief — that a good trip is planned by someone who actually picks up the phone. What started as ticketing for neighbours has grown into full itineraries across India and abroad, still run with the same hands-on care.',
   },
   {
     title: 'Our Mission',

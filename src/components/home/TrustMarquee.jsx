@@ -8,7 +8,7 @@ const items = [
   'Instant WhatsApp quotes',
   'Visa documentation help',
   'Group & corporate tours',
-  'Since years in Agra',
+  'Based in Agra',
 ]
 
 export function TrustMarquee() {

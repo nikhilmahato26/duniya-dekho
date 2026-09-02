@@ -45,7 +45,7 @@ export function Footer() {
         <div className="grid gap-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.3fr] lg:gap-10 lg:py-20">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="" className="size-16 object-contain" />
+              <img src="/logo-192.png" alt="" className="size-16 object-contain" />
               <span className="flex flex-col leading-none">
                 <span className="font-display text-lg font-extrabold text-white">Duniya Dekho</span>
                 <span className="font-display text-lg font-extrabold text-teal-300">Travels</span>

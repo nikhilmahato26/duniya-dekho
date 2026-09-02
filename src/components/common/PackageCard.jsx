@@ -67,28 +67,32 @@ export function PackageCard({ pkg, className }) {
           ))}
         </div>
 
-        <div className="mt-auto flex items-end justify-between gap-3 pt-5">
-          <div>
-            <span className="block text-[11px] font-semibold uppercase tracking-[0.14em] text-navy-400">
-              Starting from
-            </span>
-            <span className="flex items-baseline gap-2">
-              <span className="font-display text-2xl font-extrabold text-navy-800">
-                ₹{formatINR(pkg.price)}
+        <div className="mt-auto pt-5">
+          <div className="flex items-end justify-between gap-3">
+            <div>
+              <span className="block text-[11px] font-semibold uppercase tracking-[0.14em] text-navy-400">
+                Starting from
               </span>
-              {pkg.strike && (
-                <span className="text-[13px] text-navy-300 line-through">₹{formatINR(pkg.strike)}</span>
-              )}
-            </span>
-            <span className="text-[11.5px] text-navy-400">per person</span>
+              <span className="flex items-baseline gap-2">
+                <span className="font-display text-2xl font-extrabold text-navy-800">
+                  ₹{formatINR(pkg.price)}
+                </span>
+                {pkg.strike && (
+                  <span className="text-[13px] text-navy-300 line-through">
+                    ₹{formatINR(pkg.strike)}
+                  </span>
+                )}
+              </span>
+            </div>
+            <span className="pb-1 text-[11.5px] text-navy-400">per person</span>
           </div>
 
           <Link
             to={`/tour-packages/${pkg.slug}`}
-            className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-gold-400 px-4 py-2.5 text-[13px] font-bold text-navy-900 transition-all duration-300 hover:bg-navy-800 hover:text-white"
+            className="mt-4 flex w-full items-center justify-center gap-1.5 whitespace-nowrap rounded-full bg-gold-400 px-4 py-3 text-[13.5px] font-bold text-navy-900 transition-all duration-300 hover:bg-navy-800 hover:text-white"
           >
             View Details
-            <ArrowUpRight className="size-4" />
+            <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </div>
       </div>

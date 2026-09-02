@@ -87,8 +87,10 @@
     overflow-x: hidden;
   }
 
+  /* Headings inherit their colour so they stay legible inside dark panels. */
   h1, h2, h3, h4, h5 {
-    @apply font-display tracking-tight text-navy-800;
+    @apply font-display tracking-tight;
+    color: inherit;
     text-wrap: balance;
   }
 

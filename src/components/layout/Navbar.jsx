@@ -24,7 +24,9 @@ function DesktopLink({ link }) {
         className={({ isActive }) =>
           cn(
             'group relative flex items-center gap-1 whitespace-nowrap rounded-full px-3.5 py-2 text-[13.5px] font-semibold transition-colors duration-300',
-            isActive ? 'text-navy-900' : 'text-navy-600 hover:text-navy-900',
+            isActive
+              ? 'bg-navy-800 text-white'
+              : 'text-navy-600 hover:text-navy-900',
           )
         }
       >
@@ -103,7 +105,7 @@ export function Navbar() {
         initial={false}
         animate={{ height: scrolled ? 0 : 40, opacity: scrolled ? 0 : 1 }}
         transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-        className="overflow-hidden"
+        className="hidden overflow-hidden lg:block"
       >
         <TopBar />
       </motion.div>
@@ -119,7 +121,7 @@ export function Navbar() {
         <div className="container-page flex h-18 items-center justify-between gap-4 py-2.5">
           <Link to="/" className="group flex items-center gap-3" aria-label={site.name}>
             <img
-              src="/logo.png"
+              src="/logo-192.png"
               alt=""
               width="56"
               height="56"
@@ -161,7 +163,7 @@ export function Navbar() {
 
               <SheetContent>
                 <div className="flex items-center gap-3 border-b border-navy-100 px-6 py-5">
-                  <img src="/logo.png" alt="" className="size-12 object-contain" />
+                  <img src="/logo-192.png" alt="" className="size-12 object-contain" />
                   <span className="flex flex-col">
                     <span className="font-display text-[15px] font-extrabold text-navy-800">
                       Duniya Dekho Travels

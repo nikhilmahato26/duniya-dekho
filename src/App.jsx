@@ -22,7 +22,7 @@ function RouteFallback() {
   return (
     <div className="grid min-h-[70vh] place-items-center bg-white">
       <div className="flex flex-col items-center gap-4">
-        <img src="/logo.png" alt="" className="size-16 animate-float object-contain" />
+        <img src="/logo-192.png" alt="" className="size-16 animate-float object-contain" />
         <span className="h-1 w-32 overflow-hidden rounded-full bg-navy-100">
           <span className="block h-full w-1/2 animate-[marquee_1.1s_linear_infinite] rounded-full bg-teal-500" />
         </span>
