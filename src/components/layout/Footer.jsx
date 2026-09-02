@@ -44,13 +44,21 @@ export function Footer() {
       <div className="container-page relative">
         <div className="grid gap-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.3fr] lg:gap-10 lg:py-20">
           <div>
-            <div className="flex items-center gap-3">
-              <img src="/logo-192.png" alt="" className="size-16 object-contain" />
-              <span className="flex flex-col leading-none">
-                <span className="font-display text-lg font-extrabold text-white">Duniya Dekho</span>
-                <span className="font-display text-lg font-extrabold text-teal-300">Travels</span>
+            {/* Mirrors the navbar lockup exactly — only the colours flip for the dark ground. */}
+            <Link to="/" className="group flex items-center gap-3" aria-label={site.name}>
+              {/* White tile so the navy logo stays legible on the dark footer. */}
+              <span className="grid size-13 shrink-0 place-items-center rounded-2xl bg-white p-1.5 shadow-soft transition-transform duration-500 group-hover:scale-105 sm:size-14">
+                <img src="/logo-192.png" alt="" width="56" height="56" className="size-full object-contain" />
               </span>
-            </div>
+              <span className="flex flex-col whitespace-nowrap leading-none">
+                <span className="font-display text-[15px] font-extrabold tracking-tight text-white sm:text-[16.5px]">
+                  Duniya Dekho Travels
+                </span>
+                <span className="mt-1 text-[9.5px] font-semibold uppercase tracking-[0.18em] text-teal-300 sm:text-[10px]">
+                  {site.tagline}
+                </span>
+              </span>
+            </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-navy-200/80">
               Explore More… Live More. From Agra to anywhere on the map — flights, trains, hotels,
               cabs, visas and hand-built itineraries, all under one roof.
