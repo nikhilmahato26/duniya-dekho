@@ -1,0 +1,766 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e7]:
+      - link "duniyadekhotravelsofficial@gmail.com" [ref=e8] [cursor=pointer]:
+        - /url: mailto:duniyadekhotravelsofficial@gmail.com
+      - generic [ref=e12]:
+        - link "9690892922" [ref=e16] [cursor=pointer]:
+          - /url: tel:+919690892922
+        - generic [ref=e17]:
+          - generic [ref=e18]: "|"
+          - link "8126748820" [ref=e19] [cursor=pointer]:
+            - /url: tel:+918126748820
+        - generic [ref=e20]:
+          - generic [ref=e21]: "|"
+          - link "6398151989" [ref=e22] [cursor=pointer]:
+            - /url: tel:+916398151989
+      - generic [ref=e23]: Agra Office
+    - generic [ref=e28]:
+      - link "Duniya Dekho Travels" [ref=e29] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e30]:
+          - generic [ref=e31]: Duniya Dekho Travels
+          - generic [ref=e32]: Aapke Safar Ka Sathi
+      - navigation [ref=e33]:
+        - link "Home" [ref=e35] [cursor=pointer]:
+          - /url: /
+        - link "Tour Packages" [ref=e39] [cursor=pointer]:
+          - /url: /tour-packages
+        - link "Booking Services" [ref=e44] [cursor=pointer]:
+          - /url: /booking-services
+        - link "Customized Tour" [ref=e49] [cursor=pointer]:
+          - /url: /customized-tour
+        - link "About Us" [ref=e52] [cursor=pointer]:
+          - /url: /about
+        - link "Gallery" [ref=e55] [cursor=pointer]:
+          - /url: /gallery
+        - link "Contact Us" [ref=e58] [cursor=pointer]:
+          - /url: /contact
+      - link "9690892922" [ref=e61] [cursor=pointer]:
+        - /url: tel:+919690892922
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: Aapke Safar Ka Sathi
+        - heading "Duniya Dekho Travels" [level=1] [ref=e74]
+        - paragraph [ref=e75]: Explore India. Explore World. Hand-planned tour packages, honest fares and a travel partner from Agra who actually picks up the phone.
+        - generic [ref=e76]:
+          - generic [ref=e77]: Flights
+          - generic [ref=e78]: Hotels
+          - generic [ref=e79]: Trains
+          - generic [ref=e80]: Tours
+          - generic [ref=e81]: Visa Assistance
+        - generic [ref=e82]:
+          - link "Explore Packages" [ref=e83] [cursor=pointer]:
+            - /url: /tour-packages
+          - link "Plan A Custom Trip" [ref=e84] [cursor=pointer]:
+            - /url: /customized-tour
+        - generic [ref=e85]:
+          - generic [ref=e86]: 4.9/5 from 900+ travellers
+          - generic [ref=e99]: 12,000+ happy journeys
+          - generic [ref=e101]: 24×7 on-trip support
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - button "Flight" [ref=e106]
+          - button "Train" [ref=e110]
+          - button "Hotel" [ref=e118]
+          - button "Bus" [ref=e122]
+          - button "Cab" [ref=e127]
+          - button "Tour Packages" [ref=e132]
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]: From
+              - textbox "From" [ref=e142]:
+                - /placeholder: Enter departure city
+            - generic [ref=e143]:
+              - generic [ref=e144]: To
+              - textbox "To" [ref=e145]:
+                - /placeholder: Enter destination
+            - generic [ref=e146]:
+              - generic [ref=e147]: Departure Date
+              - textbox "Departure Date" [ref=e148]
+            - generic [ref=e149]:
+              - generic [ref=e150]: Return Date
+              - textbox "Return Date" [ref=e151]
+            - generic [ref=e152]:
+              - generic [ref=e153]: Travellers
+              - combobox "Travellers" [ref=e154] [cursor=pointer]:
+                - option "1 Adult" [selected]
+                - option "2 Adults"
+                - option "2 Adults, 1 Child"
+                - option "4 Adults"
+                - option "Group (6+)"
+            - button "Search" [ref=e156]
+          - paragraph [ref=e157]: Enquiries reach our team instantly on WhatsApp — we reply with real fares, not auto-mails.
+      - generic [ref=e159]:
+        - generic [ref=e161]:
+          - generic [ref=e162]: Popular Tour Packages
+          - heading "Discover Amazing Destinations" [level=2] [ref=e165]
+          - paragraph [ref=e166]: Handpicked itineraries our travellers book again and again — priced per person, with stays, transfers and sightseeing already inside.
+        - generic [ref=e168]:
+          - generic [ref=e170]:
+            - article [ref=e172]:
+              - generic [ref=e173]:
+                - img "Kashmir — Paradise On Earth" [ref=e174]
+                - generic [ref=e176]: Best Seller
+                - generic [ref=e177]: ★ 4.9
+                - generic [ref=e178]:
+                  - generic [ref=e179]: Jammu & Kashmir
+                  - generic [ref=e183]: 5N / 6D
+              - generic [ref=e186]:
+                - heading "Kashmir — Paradise On Earth" [level=3] [ref=e187]
+                - generic [ref=e188]:
+                  - generic "4.9 out of 5" [ref=e189]
+                  - generic [ref=e200]: (214 reviews)
+                - paragraph [ref=e201]: Shikara rides on Dal Lake, tulip gardens in Srinagar and snow at Gulmarg — the classic Kashmir circuit at an honest price.
+                - generic [ref=e202]:
+                  - generic [ref=e203]: Dal Lake houseboat night
+                  - generic [ref=e204]: Gulmarg Gondola ride
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - generic [ref=e207]: Starting from
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: ₹12,999
+                      - generic [ref=e210]: ₹16,999
+                    - text: per person
+                  - link "View Details" [ref=e211] [cursor=pointer]:
+                    - /url: /tour-packages/kashmir-paradise-on-earth
+            - article [ref=e216]:
+              - generic [ref=e217]:
+                - img "Manali & Himachal Escape" [ref=e218]
+                - generic [ref=e220]: Popular
+                - generic [ref=e221]: ★ 4.8
+                - generic [ref=e222]:
+                  - generic [ref=e223]: Himachal Pradesh
+                  - generic [ref=e227]: 4N / 5D
+              - generic [ref=e230]:
+                - heading "Manali & Himachal Escape" [level=3] [ref=e231]
+                - generic [ref=e232]:
+                  - generic "4.8 out of 5" [ref=e233]
+                  - generic [ref=e244]: (186 reviews)
+                - paragraph [ref=e245]: Snow at Solang, café mornings in Old Manali and a riverside drive through the Kullu valley.
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Solang Valley snow point
+                  - generic [ref=e248]: Rohtang / Atal Tunnel drive
+                - generic [ref=e249]:
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: Starting from
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: ₹11,999
+                      - generic [ref=e254]: ₹14,999
+                    - text: per person
+                  - link "View Details" [ref=e255] [cursor=pointer]:
+                    - /url: /tour-packages/manali-himachal-escape
+            - article [ref=e260]:
+              - generic [ref=e261]:
+                - img "Royal Rajasthan Circuit" [ref=e262]
+                - generic [ref=e264]: Heritage
+                - generic [ref=e265]: ★ 4.7
+                - generic [ref=e266]:
+                  - generic [ref=e267]: Rajasthan
+                  - generic [ref=e271]: 4N / 5D
+              - generic [ref=e274]:
+                - heading "Royal Rajasthan Circuit" [level=3] [ref=e275]
+                - generic [ref=e276]:
+                  - generic "4.7 out of 5" [ref=e277]
+                  - generic [ref=e288]: (158 reviews)
+                - paragraph [ref=e289]: Forts, palaces and desert sunsets across Jaipur, Jodhpur and the pink city bazaars.
+                - generic [ref=e290]:
+                  - generic [ref=e291]: Amber Fort elephant gate
+                  - generic [ref=e292]: Hawa Mahal & City Palace
+                - generic [ref=e293]:
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: Starting from
+                    - generic [ref=e296]:
+                      - generic [ref=e297]: ₹10,999
+                      - generic [ref=e298]: ₹13,499
+                    - text: per person
+                  - link "View Details" [ref=e299] [cursor=pointer]:
+                    - /url: /tour-packages/royal-rajasthan
+            - article [ref=e304]:
+              - generic [ref=e305]:
+                - img "Goa Beach Break" [ref=e306]
+                - generic [ref=e308]: Couple Favourite
+                - generic [ref=e309]: ★ 4.8
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Goa
+                  - generic [ref=e315]: 4N / 5D
+              - generic [ref=e318]:
+                - heading "Goa Beach Break" [level=3] [ref=e319]
+                - generic [ref=e320]:
+                  - generic "4.8 out of 5" [ref=e321]
+                  - generic [ref=e332]: (231 reviews)
+                - paragraph [ref=e333]: North Goa nightlife, South Goa calm, a sunset cruise on the Mandovi and plenty of shack food.
+                - generic [ref=e334]:
+                  - generic [ref=e335]: Baga & Calangute beaches
+                  - generic [ref=e336]: Sunset cruise on Mandovi
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: Starting from
+                    - generic [ref=e340]:
+                      - generic [ref=e341]: ₹14,999
+                      - generic [ref=e342]: ₹18,999
+                    - text: per person
+                  - link "View Details" [ref=e343] [cursor=pointer]:
+                    - /url: /tour-packages/goa-beach-break
+            - article [ref=e348]:
+              - generic [ref=e349]:
+                - img "Dubai — City Of Gold" [ref=e350]
+                - generic [ref=e352]: International Hit
+                - generic [ref=e353]: ★ 4.9
+                - generic [ref=e354]:
+                  - generic [ref=e355]: United Arab Emirates
+                  - generic [ref=e359]: 4N / 5D
+              - generic [ref=e362]:
+                - heading "Dubai — City Of Gold" [level=3] [ref=e363]
+                - generic [ref=e364]:
+                  - generic "4.9 out of 5" [ref=e365]
+                  - generic [ref=e376]: (142 reviews)
+                - paragraph [ref=e377]: Burj Khalifa, a desert safari under the stars and a dhow cruise dinner on Dubai Creek — visa assistance included.
+                - generic [ref=e378]:
+                  - generic [ref=e379]: Burj Khalifa 124th floor
+                  - generic [ref=e380]: Desert safari with BBQ dinner
+                - generic [ref=e381]:
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: Starting from
+                    - generic [ref=e384]:
+                      - generic [ref=e385]: ₹49,999
+                      - generic [ref=e386]: ₹58,999
+                    - text: per person
+                  - link "View Details" [ref=e387] [cursor=pointer]:
+                    - /url: /tour-packages/dubai-city-of-gold
+          - generic [ref=e391]:
+            - button "Previous" [ref=e392]
+            - generic [ref=e395]:
+              - button "Go to slide 1" [ref=e396]
+              - button "Go to slide 2" [ref=e397]
+              - button "Go to slide 3" [ref=e398]
+              - button "Go to slide 4" [ref=e399]
+              - button "Go to slide 5" [ref=e400]
+            - button "Next" [ref=e401]
+        - link "View All Packages" [ref=e405] [cursor=pointer]:
+          - /url: /tour-packages
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - text: IATA-standard ticketing
+            - generic [ref=e411]: ✦
+          - generic [ref=e412]:
+            - text: Verified hotels only
+            - generic [ref=e413]: ✦
+          - generic [ref=e414]:
+            - text: No hidden charges
+            - generic [ref=e415]: ✦
+          - generic [ref=e416]:
+            - text: 24×7 travel desk
+            - generic [ref=e417]: ✦
+          - generic [ref=e418]:
+            - text: Instant WhatsApp quotes
+            - generic [ref=e419]: ✦
+          - generic [ref=e420]:
+            - text: Visa documentation help
+            - generic [ref=e421]: ✦
+          - generic [ref=e422]:
+            - text: Group & corporate tours
+            - generic [ref=e423]: ✦
+          - generic [ref=e424]:
+            - text: Since years in Agra
+            - generic [ref=e425]: ✦
+        - generic [ref=e426]:
+          - generic [ref=e427]:
+            - text: IATA-standard ticketing
+            - generic [ref=e428]: ✦
+          - generic [ref=e429]:
+            - text: Verified hotels only
+            - generic [ref=e430]: ✦
+          - generic [ref=e431]:
+            - text: No hidden charges
+            - generic [ref=e432]: ✦
+          - generic [ref=e433]:
+            - text: 24×7 travel desk
+            - generic [ref=e434]: ✦
+          - generic [ref=e435]:
+            - text: Instant WhatsApp quotes
+            - generic [ref=e436]: ✦
+          - generic [ref=e437]:
+            - text: Visa documentation help
+            - generic [ref=e438]: ✦
+          - generic [ref=e439]:
+            - text: Group & corporate tours
+            - generic [ref=e440]: ✦
+          - generic [ref=e441]:
+            - text: Since years in Agra
+            - generic [ref=e442]: ✦
+      - generic [ref=e444]:
+        - generic [ref=e445]:
+          - generic [ref=e446]: Our Booking Services
+          - heading "All Travel Needs Under One Roof" [level=2] [ref=e449]
+          - paragraph [ref=e450]: Seven desks, one team. Whatever moves you — a flight, a train berth, a hotel key or a visa stamp — it is handled here.
+        - generic [ref=e451]:
+          - link [ref=e453] [cursor=pointer]:
+            - /url: /booking-services#flight-booking
+            - heading "Flight Booking" [level=3] [ref=e458]
+            - paragraph [ref=e459]: Domestic & international air tickets at the best fare of the day.
+            - generic [ref=e460]: Know more
+          - link [ref=e465] [cursor=pointer]:
+            - /url: /booking-services#train-booking
+            - heading "Train Booking" [level=3] [ref=e475]
+            - paragraph [ref=e476]: Confirmed IRCTC tickets, tatkal support and berth preferences.
+            - generic [ref=e477]: Know more
+          - link [ref=e482] [cursor=pointer]:
+            - /url: /booking-services#hotel-booking
+            - heading "Hotel Booking" [level=3] [ref=e488]
+            - paragraph [ref=e489]: Budget stays to 5-star resorts, verified and negotiated.
+            - generic [ref=e490]: Know more
+          - link [ref=e495] [cursor=pointer]:
+            - /url: /booking-services#bus-booking
+            - heading "Bus Booking" [level=3] [ref=e502]
+            - paragraph [ref=e503]: AC sleeper, Volvo and tempo traveller seats across India.
+            - generic [ref=e504]: Know more
+          - link [ref=e509] [cursor=pointer]:
+            - /url: /booking-services#cab-booking
+            - heading "Cab Booking" [level=3] [ref=e516]
+            - paragraph [ref=e517]: Airport transfers, outstation cabs and full-day sightseeing.
+            - generic [ref=e518]: Know more
+          - link [ref=e523] [cursor=pointer]:
+            - /url: /booking-services#visa-assistance
+            - heading "Visa Assistance" [level=3] [ref=e530]
+            - paragraph [ref=e531]: Documentation, appointments and end-to-end visa filing.
+            - generic [ref=e532]: Know more
+          - link [ref=e537] [cursor=pointer]:
+            - /url: /booking-services#tour-packages
+            - heading "Tour Packages" [level=3] [ref=e545]
+            - paragraph [ref=e546]: Ready-made and custom itineraries, India and worldwide.
+            - generic [ref=e547]: Know more
+          - link [ref=e552] [cursor=pointer]:
+            - /url: /customized-tour
+            - generic [ref=e554]:
+              - heading "Nothing fits? We will build it." [level=3] [ref=e555]: Nothing fits?We will build it.
+              - paragraph [ref=e556]: Tell us your dates, budget and pace — we design the itinerary around you.
+            - generic [ref=e557]: Plan my custom trip
+      - generic [ref=e562]:
+        - generic [ref=e563]:
+          - generic [ref=e564]:
+            - img "Traveller looking out over a mountain lake" [ref=e566]
+            - generic [ref=e568]:
+              - paragraph [ref=e569]: Travel Makes Life Beautiful
+              - paragraph [ref=e570]: And we take care of everything in between.
+          - generic [ref=e572]:
+            - paragraph [ref=e576]: Need Help?
+            - paragraph [ref=e577]: Call Now
+            - link "9690892922" [ref=e578] [cursor=pointer]:
+              - /url: tel:+919690892922
+        - generic [ref=e579]:
+          - generic [ref=e580]:
+            - generic [ref=e581]: Why Choose Us
+            - heading "Why travellers keep coming back to Duniya Dekho Travels" [level=2] [ref=e583]
+            - paragraph [ref=e584]: We are not a booking portal. We are the people who answer at 11 PM when a flight is rescheduled — and who have already re-planned your morning by the time you call.
+          - generic [ref=e585]:
+            - generic [ref=e591]:
+              - generic [ref=e592]: Trusted Travel Partner
+              - generic [ref=e593]: Thousands of happy journeys planned from our Agra office with the same personal care every single time.
+            - generic [ref=e599]:
+              - generic [ref=e600]: Best Price & Best Deals
+              - generic [ref=e601]: Direct operator tie-ups and agent fares mean you pay for the trip, never for the middleman.
+            - generic [ref=e607]:
+              - generic [ref=e608]: 24×7 Customer Support
+              - generic [ref=e609]: A real human on the phone at 2 AM if a flight shifts or a plan changes mid-trip.
+            - generic [ref=e615]:
+              - generic [ref=e616]: Safe & Comfortable Travel
+              - generic [ref=e617]: Verified hotels, sanitised cabs and vetted drivers on every route we sell.
+            - generic [ref=e623]:
+              - generic [ref=e624]: Customized Tour Packages
+              - generic [ref=e625]: Your dates, your budget, your pace — the itinerary is built around you, not a brochure.
+            - generic [ref=e631]:
+              - generic [ref=e632]: 100% Customer Satisfaction
+              - generic [ref=e633]: Transparent pricing, no hidden charges and a written itinerary before you pay a rupee.
+      - generic [ref=e637]:
+        - generic [ref=e638]:
+          - generic [ref=e639]: 0+
+          - generic [ref=e641]: Happy Travellers
+        - generic [ref=e642]:
+          - generic [ref=e643]: 0+
+          - generic [ref=e645]: Destinations Covered
+        - generic [ref=e646]:
+          - generic [ref=e647]: 0+
+          - generic [ref=e649]: Curated Packages
+        - generic [ref=e650]:
+          - generic [ref=e651]: 0×7
+          - generic [ref=e653]: Support On Call
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - generic [ref=e658]: About Us
+          - heading "A travel agency built on phone calls, not call centres" [level=2] [ref=e660]
+        - generic [ref=e661]:
+          - paragraph [ref=e662]: Duniya Dekho Travels is a leading travel agency committed to making your travel dreams come true. Whether you want to explore beautiful places in India or see the wonders of the world, we are here to plan, book and support your journey with complete care and trust.
+          - paragraph [ref=e663]: From our office in Agra we handle everything end to end — flights, trains, hotels, cabs, visas and full itineraries — so that the only thing you have to organise is your suitcase.
+        - generic [ref=e664]:
+          - link "Read More" [ref=e665] [cursor=pointer]:
+            - /url: /about
+          - link "Visit Our Agra Office" [ref=e666] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e672]:
+        - generic [ref=e673]:
+          - generic [ref=e674]: Trending Destinations
+          - heading "Where India Is Travelling This Season" [level=2] [ref=e677]
+          - paragraph [ref=e678]: Snow, sand, backwaters or skyline — pick a mood and we will price the whole trip for you today.
+        - generic [ref=e679]:
+          - link "Kashmir Snow & lakes Kashmir From ₹12,999 / person Explore packages →" [ref=e681] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Kashmir" [ref=e682]
+            - generic [ref=e684]:
+              - generic [ref=e685]: Snow & lakes
+              - heading "Kashmir" [level=3] [ref=e686]
+              - paragraph [ref=e687]:
+                - text: From
+                - generic [ref=e688]: ₹12,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Goa Beaches Goa From ₹14,999 / person Explore packages →" [ref=e690] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Goa" [ref=e691]
+            - generic [ref=e693]:
+              - generic [ref=e694]: Beaches
+              - heading "Goa" [level=3] [ref=e695]
+              - paragraph [ref=e696]:
+                - text: From
+                - generic [ref=e697]: ₹14,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Kerala Backwaters Kerala From ₹16,999 / person Explore packages →" [ref=e699] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Kerala" [ref=e700]
+            - generic [ref=e702]:
+              - generic [ref=e703]: Backwaters
+              - heading "Kerala" [level=3] [ref=e704]
+              - paragraph [ref=e705]:
+                - text: From
+                - generic [ref=e706]: ₹16,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Rajasthan Forts Rajasthan From ₹10,999 / person Explore packages →" [ref=e708] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Rajasthan" [ref=e709]
+            - generic [ref=e711]:
+              - generic [ref=e712]: Forts
+              - heading "Rajasthan" [level=3] [ref=e713]
+              - paragraph [ref=e714]:
+                - text: From
+                - generic [ref=e715]: ₹10,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Dubai City break Dubai From ₹49,999 / person Explore packages →" [ref=e717] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Dubai" [ref=e718]
+            - generic [ref=e720]:
+              - generic [ref=e721]: City break
+              - heading "Dubai" [level=3] [ref=e722]
+              - paragraph [ref=e723]:
+                - text: From
+                - generic [ref=e724]: ₹49,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Maldives Island luxury Maldives From ₹74,999 / person Explore packages →" [ref=e726] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Maldives" [ref=e727]
+            - generic [ref=e729]:
+              - generic [ref=e730]: Island luxury
+              - heading "Maldives" [level=3] [ref=e731]
+              - paragraph [ref=e732]:
+                - text: From
+                - generic [ref=e733]: ₹74,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Ladakh Road trip Ladakh From ₹21,999 / person Explore packages →" [ref=e735] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Ladakh" [ref=e736]
+            - generic [ref=e738]:
+              - generic [ref=e739]: Road trip
+              - heading "Ladakh" [level=3] [ref=e740]
+              - paragraph [ref=e741]:
+                - text: From
+                - generic [ref=e742]: ₹21,999
+                - text: / person
+              - generic: Explore packages →
+          - link "Thailand Islands Thailand From ₹42,999 / person Explore packages →" [ref=e744] [cursor=pointer]:
+            - /url: /tour-packages
+            - img "Thailand" [ref=e745]
+            - generic [ref=e747]:
+              - generic [ref=e748]: Islands
+              - heading "Thailand" [level=3] [ref=e749]
+              - paragraph [ref=e750]:
+                - text: From
+                - generic [ref=e751]: ₹42,999
+                - text: / person
+              - generic: Explore packages →
+      - generic [ref=e753]:
+        - generic [ref=e754]:
+          - generic [ref=e755]: How It Works
+          - heading "Four steps from idea to boarding pass" [level=2] [ref=e758]
+          - paragraph [ref=e759]: No forms that vanish into an inbox. A real coordinator picks up your enquiry and stays with it.
+        - generic [ref=e760]:
+          - generic [ref=e762]:
+            - text: "01"
+            - heading "Tell us your plan" [level=3] [ref=e763]
+            - paragraph [ref=e764]: Share destination, dates, budget and who is travelling — on call or WhatsApp.
+          - generic [ref=e767]:
+            - text: "02"
+            - heading "Get a custom quote" [level=3] [ref=e768]
+            - paragraph [ref=e769]: We design a day-by-day itinerary with stays, transfers and inclusions priced honestly.
+          - generic [ref=e772]:
+            - text: "03"
+            - heading "Confirm & relax" [level=3] [ref=e773]
+            - paragraph [ref=e774]: Pay securely, get vouchers on WhatsApp and let us handle every booking detail.
+          - generic [ref=e777]:
+            - text: "04"
+            - heading "Travel with support" [level=3] [ref=e778]
+            - paragraph [ref=e779]: A dedicated coordinator stays reachable through the entire journey.
+      - generic [ref=e781]:
+        - generic [ref=e782]:
+          - generic [ref=e783]: Our Travel Gallery
+          - heading "Glimpses Of Happy Journeys" [level=2] [ref=e786]
+          - paragraph [ref=e787]: Frames sent back to us by travellers who booked with Duniya Dekho Travels.
+        - generic [ref=e788]:
+          - link "Kashmir Kashmir" [ref=e790] [cursor=pointer]:
+            - /url: /gallery
+            - img "Kashmir" [ref=e791]
+            - generic [ref=e793]: Kashmir
+          - link "Goa Goa" [ref=e795] [cursor=pointer]:
+            - /url: /gallery
+            - img "Goa" [ref=e796]
+            - generic [ref=e798]: Goa
+          - link "Dubai Dubai" [ref=e800] [cursor=pointer]:
+            - /url: /gallery
+            - img "Dubai" [ref=e801]
+            - generic [ref=e803]: Dubai
+          - link "Rajasthan Rajasthan" [ref=e805] [cursor=pointer]:
+            - /url: /gallery
+            - img "Rajasthan" [ref=e806]
+            - generic [ref=e808]: Rajasthan
+          - link "Kerala Kerala" [ref=e810] [cursor=pointer]:
+            - /url: /gallery
+            - img "Kerala" [ref=e811]
+            - generic [ref=e813]: Kerala
+          - link "Manali Manali" [ref=e815] [cursor=pointer]:
+            - /url: /gallery
+            - img "Manali" [ref=e816]
+            - generic [ref=e818]: Manali
+          - link "Maldives Maldives" [ref=e820] [cursor=pointer]:
+            - /url: /gallery
+            - img "Maldives" [ref=e821]
+            - generic [ref=e823]: Maldives
+          - link "Varanasi Varanasi" [ref=e825] [cursor=pointer]:
+            - /url: /gallery
+            - img "Varanasi" [ref=e826]
+            - generic [ref=e828]: Varanasi
+          - link "Bali Bali" [ref=e830] [cursor=pointer]:
+            - /url: /gallery
+            - img "Bali" [ref=e831]
+            - generic [ref=e833]: Bali
+          - link "Ladakh Ladakh" [ref=e835] [cursor=pointer]:
+            - /url: /gallery
+            - img "Ladakh" [ref=e836]
+            - generic [ref=e838]: Ladakh
+          - link "Singapore Singapore" [ref=e840] [cursor=pointer]:
+            - /url: /gallery
+            - img "Singapore" [ref=e841]
+            - generic [ref=e843]: Singapore
+          - link "Agra Agra" [ref=e845] [cursor=pointer]:
+            - /url: /gallery
+            - img "Agra" [ref=e846]
+            - generic [ref=e848]: Agra
+        - link "View Full Gallery" [ref=e850] [cursor=pointer]:
+          - /url: /gallery
+      - generic [ref=e852]:
+        - generic [ref=e853]:
+          - generic [ref=e854]: What Our Clients Say
+          - heading "Trusted By Thousands Of Happy Travellers" [level=2] [ref=e857]
+          - paragraph [ref=e858]: Reviews collected from travellers across Agra, Delhi, Lucknow and beyond.
+        - generic [ref=e860]:
+          - generic [ref=e862]:
+            - figure "RS Rajesh Sharma Agra · Kashmir · 6 Days" [ref=e864]:
+              - generic "5 out of 5" [ref=e866]
+              - blockquote [ref=e880]: “Duniya Dekho Travels ne hamari Kashmir yatra ko yaadgar bana diya. Hotel, cab aur poora plan ekdum smooth tha. Behtareen seva aur sahyog ke liye dhanyavaad!”
+              - generic [ref=e881]:
+                - generic [ref=e882]: RS
+                - generic [ref=e883]:
+                  - generic [ref=e884]: Rajesh Sharma
+                  - generic [ref=e885]: Agra · Kashmir · 6 Days
+            - figure "NV Neha Verma Delhi · Goa · 5 Days" [ref=e887]:
+              - generic "5 out of 5" [ref=e889]
+              - blockquote [ref=e903]: “Goa trip bahut shaandaar raha. Poori team ne bahut accha support kiya — resort beach ke saamne tha aur cruise timing perfect thi. Hum zaroor phir se book karenge.”
+              - generic [ref=e904]:
+                - generic [ref=e905]: NV
+                - generic [ref=e906]:
+                  - generic [ref=e907]: Neha Verma
+                  - generic [ref=e908]: Delhi · Goa · 5 Days
+            - figure "AS Amit Singh Lucknow · Dubai · 5 Days" [ref=e910]:
+              - generic "5 out of 5" [ref=e912]
+              - blockquote [ref=e926]: “Best travel agency in India! Packages affordable hain aur service excellent hai. Dubai visa bhi inhone hi karwaya, ek din bhi delay nahi hua.”
+              - generic [ref=e927]:
+                - generic [ref=e928]: AS
+                - generic [ref=e929]:
+                  - generic [ref=e930]: Amit Singh
+                  - generic [ref=e931]: Lucknow · Dubai · 5 Days
+            - figure "PK Priya & Karan Noida · Bali · 7 Days" [ref=e933]:
+              - generic "5 out of 5" [ref=e935]
+              - blockquote [ref=e949]: “We booked our honeymoon to Bali with them. The pool villa, the candlelight dinner, every transfer — handled without us lifting a finger. Genuinely thoughtful planning.”
+              - generic [ref=e950]:
+                - generic [ref=e951]: PK
+                - generic [ref=e952]:
+                  - generic [ref=e953]: Priya & Karan
+                  - generic [ref=e954]: Noida · Bali · 7 Days
+            - figure "MI Mohd. Irfan Agra · Flight & Train Booking" [ref=e956]:
+              - generic "5 out of 5" [ref=e958]
+              - blockquote [ref=e972]: “Tatkal ticket aur last-minute flight dono same day arrange kar diye. Raat 11 baje bhi phone uthaya. Yahi asli service hoti hai.”
+              - generic [ref=e973]:
+                - generic [ref=e974]: MI
+                - generic [ref=e975]:
+                  - generic [ref=e976]: Mohd. Irfan
+                  - generic [ref=e977]: Agra · Flight & Train Booking
+            - figure "SA Sunita Agarwal Mathura · Char Dham · 10 Days" [ref=e979]:
+              - generic "5 out of 5" [ref=e981]
+              - blockquote [ref=e995]: “Char Dham Yatra ke liye humne inhe choose kiya. Elderly parents ke liye har jagah comfortable stay aur pooja arrangement kiya. Bahut dhanyavaad.”
+              - generic [ref=e996]:
+                - generic [ref=e997]: SA
+                - generic [ref=e998]:
+                  - generic [ref=e999]: Sunita Agarwal
+                  - generic [ref=e1000]: Mathura · Char Dham · 10 Days
+          - generic [ref=e1001]:
+            - button "Previous" [ref=e1002]
+            - generic [ref=e1005]:
+              - button "Go to slide 1" [ref=e1006]
+              - button "Go to slide 2" [ref=e1007]
+              - button "Go to slide 3" [ref=e1008]
+              - button "Go to slide 4" [ref=e1009]
+              - button "Go to slide 5" [ref=e1010]
+              - button "Go to slide 6" [ref=e1011]
+            - button "Next" [ref=e1012]
+      - generic [ref=e1016]:
+        - generic [ref=e1017]:
+          - generic [ref=e1018]: FAQ
+          - heading "Questions travellers ask us before booking" [level=2] [ref=e1020]
+          - paragraph [ref=e1021]: Still unsure about something? Call us — we would rather answer honestly now than have you find out mid-trip.
+          - link "Ask A Question" [ref=e1022] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e1024]:
+          - generic [ref=e1025]:
+            - heading [level=3] [ref=e1026]:
+              - button [expanded] [ref=e1027]
+            - region "How do I book a tour package with Duniya Dekho Travels?" [ref=e1032]:
+              - generic [ref=e1033]: Call or WhatsApp us on 9690892922 with your destination and travel dates. We share a day-by-day itinerary with pricing, and once you approve it a booking amount confirms your seats and stays.
+          - heading [level=3] [ref=e1035]:
+            - button [ref=e1036]
+          - heading [level=3] [ref=e1040]:
+            - button [ref=e1041]
+          - heading [level=3] [ref=e1045]:
+            - button [ref=e1046]
+          - heading [level=3] [ref=e1050]:
+            - button [ref=e1051]
+          - heading [level=3] [ref=e1055]:
+            - button [ref=e1056]
+      - generic [ref=e1062]:
+        - generic [ref=e1063]:
+          - text: Ready when you are
+          - heading "Tell us where you want to go. We will handle the rest." [level=2] [ref=e1064]
+          - paragraph [ref=e1065]: Share your dates and budget on WhatsApp and get a full day-by-day itinerary with pricing — usually within a few hours, always from a real person.
+        - generic [ref=e1066]:
+          - link "WhatsApp Quote" [ref=e1067] [cursor=pointer]:
+            - /url: https://wa.me/919690892922?text=Hi%20Duniya%20Dekho%20Travels%2C%20I%20want%20a%20quote%20for%20my%20trip.
+          - link "9690892922" [ref=e1068] [cursor=pointer]:
+            - /url: tel:+919690892922
+          - link "Custom Tour" [ref=e1069] [cursor=pointer]:
+            - /url: /customized-tour
+  - contentinfo [ref=e1070]:
+    - generic [ref=e1071]:
+      - generic [ref=e1072]:
+        - generic [ref=e1073]:
+          - generic [ref=e1075]:
+            - generic [ref=e1076]: Duniya Dekho
+            - generic [ref=e1077]: Travels
+          - paragraph [ref=e1078]: Explore More… Live More. From Agra to anywhere on the map — flights, trains, hotels, cabs, visas and hand-built itineraries, all under one roof.
+          - generic [ref=e1079]:
+            - link "Facebook" [ref=e1080] [cursor=pointer]:
+              - /url: https://facebook.com/
+            - link "Instagram" [ref=e1083] [cursor=pointer]:
+              - /url: https://instagram.com/
+            - link "YouTube" [ref=e1086] [cursor=pointer]:
+              - /url: https://youtube.com/
+            - link "WhatsApp" [ref=e1089] [cursor=pointer]:
+              - /url: https://wa.me/919690892922?text=Hi%20Duniya%20Dekho%20Travels!
+        - generic [ref=e1092]:
+          - heading "Quick Links" [level=4] [ref=e1093]
+          - list [ref=e1095]:
+            - listitem [ref=e1096]:
+              - link "Home" [ref=e1097] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e1098]:
+              - link "Tour Packages" [ref=e1099] [cursor=pointer]:
+                - /url: /tour-packages
+            - listitem [ref=e1100]:
+              - link "Booking Services" [ref=e1101] [cursor=pointer]:
+                - /url: /booking-services
+            - listitem [ref=e1102]:
+              - link "Customized Tour" [ref=e1103] [cursor=pointer]:
+                - /url: /customized-tour
+            - listitem [ref=e1104]:
+              - link "About Us" [ref=e1105] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e1106]:
+              - link "Gallery" [ref=e1107] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e1108]:
+              - link "Contact Us" [ref=e1109] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e1110]:
+          - heading "Our Packages" [level=4] [ref=e1111]
+          - list [ref=e1113]:
+            - listitem [ref=e1114]:
+              - link "Kashmir" [ref=e1115] [cursor=pointer]:
+                - /url: /tour-packages/kashmir-paradise-on-earth
+            - listitem [ref=e1116]:
+              - link "Manali & Himachal Escape" [ref=e1117] [cursor=pointer]:
+                - /url: /tour-packages/manali-himachal-escape
+            - listitem [ref=e1118]:
+              - link "Royal Rajasthan Circuit" [ref=e1119] [cursor=pointer]:
+                - /url: /tour-packages/royal-rajasthan
+            - listitem [ref=e1120]:
+              - link "Goa Beach Break" [ref=e1121] [cursor=pointer]:
+                - /url: /tour-packages/goa-beach-break
+            - listitem [ref=e1122]:
+              - link "Dubai" [ref=e1123] [cursor=pointer]:
+                - /url: /tour-packages/dubai-city-of-gold
+            - listitem [ref=e1124]:
+              - link "Kerala" [ref=e1125] [cursor=pointer]:
+                - /url: /tour-packages/kerala-gods-own-country
+        - generic [ref=e1126]:
+          - heading "Contact Us" [level=4] [ref=e1127]
+          - list [ref=e1129]:
+            - listitem [ref=e1130]:
+              - link "+91 9690892922" [ref=e1131] [cursor=pointer]:
+                - /url: tel:+919690892922
+            - listitem [ref=e1135]:
+              - link "+91 8126748820" [ref=e1136] [cursor=pointer]:
+                - /url: tel:+918126748820
+            - listitem [ref=e1140]:
+              - link "+91 6398151989" [ref=e1141] [cursor=pointer]:
+                - /url: tel:+916398151989
+            - listitem [ref=e1145]:
+              - link "duniyadekhotravelsofficial@gmail.com" [ref=e1146] [cursor=pointer]:
+                - /url: mailto:duniyadekhotravelsofficial@gmail.com
+            - listitem [ref=e1150]: Near Silverline School, Ukharra Road, Rajpur Chungi, Agra, Uttar Pradesh, India - 282001
+          - generic [ref=e1154]:
+            - text: Get travel deals
+            - generic [ref=e1155]:
+              - textbox "Your email" [ref=e1156]
+              - button "Subscribe" [ref=e1157]
+      - generic [ref=e1159]:
+        - paragraph [ref=e1160]: © 2026 Duniya Dekho Travels. All Rights Reserved.
+        - paragraph [ref=e1161]:
+          - text: Designed with
+          - generic [ref=e1162]: ❤
+          - text: for Travellers
+  - link "Chat on WhatsApp" [ref=e1164] [cursor=pointer]:
+    - /url: https://wa.me/919690892922?text=Hi%20Duniya%20Dekho%20Travels%2C%20I%20found%20you%20online%20and%20would%20like%20to%20plan%20a%20trip.
+    - generic: Chat with us
