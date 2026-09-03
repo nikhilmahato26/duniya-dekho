@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import { Mail, MapPin, Phone, Send } from 'lucide-react'
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { site } from '@/data/site'
+import { socialLinks } from '@/data/socials'
+import { payment } from '@/data/payment'
 import { packages } from '@/data/packages'
-import { whatsappLink } from '@/lib/utils'
 
 const quickLinks = [
   { label: 'Home', to: '/' },
@@ -17,17 +17,6 @@ const quickLinks = [
   { label: 'Contact Us', to: '/contact' },
 ]
 
-const socials = [
-  { icon: FaFacebookF, href: site.socials.facebook, label: 'Facebook', color: 'hover:bg-[#1877F2]' },
-  { icon: FaInstagram, href: site.socials.instagram, label: 'Instagram', color: 'hover:bg-[#E1306C]' },
-  { icon: FaYoutube, href: site.socials.youtube, label: 'YouTube', color: 'hover:bg-[#FF0000]' },
-  {
-    icon: FaWhatsapp,
-    href: whatsappLink(site.primaryPhone, 'Hi Duniya Dekho Travels!'),
-    label: 'WhatsApp',
-    color: 'hover:bg-[#25D366]',
-  },
-]
 
 export function Footer() {
   return (
@@ -65,18 +54,41 @@ export function Footer() {
             </p>
 
             <div className="mt-6 flex gap-2.5">
-              {socials.map(({ icon: Icon, href, label, color }) => (
+              {socialLinks.map(({ icon: Icon, href, label, hover }) => (
                 <a
                   key={label}
                   href={href}
                   target="_blank"
                   rel="noreferrer"
                   aria-label={label}
-                  className={`grid size-10 place-items-center rounded-xl bg-white/8 text-white ring-1 ring-white/10 transition-all duration-300 hover:-translate-y-1 hover:ring-transparent ${color}`}
+                  className={`grid size-10 place-items-center rounded-xl bg-white/8 text-white ring-1 ring-white/10 transition-all duration-300 hover:-translate-y-1 hover:ring-transparent ${hover}`}
                 >
                   <Icon className="size-4" />
                 </a>
               ))}
+            </div>
+
+            <div className="mt-6 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-3">
+              <span className="grid size-16 shrink-0 place-items-center rounded-xl bg-white p-1.5">
+                <img
+                  src={payment.qr}
+                  alt={`UPI QR code for ${payment.upiId}`}
+                  className="size-full"
+                  loading="lazy"
+                />
+              </span>
+              <span className="min-w-0">
+                <span className="block text-[12.5px] font-bold text-white">Pay by UPI or bank transfer</span>
+                <span className="mt-0.5 block truncate font-mono text-[11.5px] text-teal-300">
+                  {payment.upiId}
+                </span>
+                <Link
+                  to="/contact#payment"
+                  className="mt-1 inline-block text-[11.5px] font-semibold text-gold-300 hover:underline"
+                >
+                  View payment details →
+                </Link>
+              </span>
             </div>
           </div>
 

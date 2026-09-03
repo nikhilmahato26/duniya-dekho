@@ -1,22 +1,17 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Clock, Mail, MapPin, Phone, Send } from 'lucide-react'
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
 import { PageHero } from '@/components/common/PageHero'
 import { Reveal } from '@/components/common/Reveal'
 import { Button } from '@/components/ui/button'
 import { Field, Input, Select, Textarea } from '@/components/ui/input'
 import { FaqSection } from '@/components/home/FaqSection'
+import { PaymentSection } from '@/components/common/PaymentSection'
 import { site } from '@/data/site'
+import { socialLinks } from '@/data/socials'
 import { IMG } from '@/data/images'
 import { whatsappLink } from '@/lib/utils'
-
-const socials = [
-  { icon: FaFacebookF, href: site.socials.facebook, label: 'Facebook' },
-  { icon: FaInstagram, href: site.socials.instagram, label: 'Instagram' },
-  { icon: FaYoutube, href: site.socials.youtube, label: 'YouTube' },
-  { icon: FaWhatsapp, href: whatsappLink(site.primaryPhone, 'Hi Duniya Dekho Travels!'), label: 'WhatsApp' },
-]
 
 export default function Contact() {
   const [sent, setSent] = useState(false)
@@ -193,7 +188,7 @@ export default function Contact() {
                 Live deals, new packages and traveller photos — first on social.
               </p>
               <div className="mt-4 flex gap-2.5">
-                {socials.map(({ icon: Icon, href, label }) => (
+                {socialLinks.map(({ icon: Icon, href, label }) => (
                   <a
                     key={label}
                     href={href}
@@ -211,7 +206,9 @@ export default function Contact() {
         </div>
       </section>
 
-      <FaqSection className="bg-navy-50/50 py-20 lg:py-24" />
+      <PaymentSection className="bg-navy-50/50 py-16 lg:py-24" />
+
+      <FaqSection className="py-20 lg:py-24" />
     </>
   )
 }

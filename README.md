@@ -47,9 +47,11 @@ Everything the client can change lives in `src/data/`:
 
 | File         | Contains                                                                    |
 | ------------ | --------------------------------------------------------------------------- |
-| `site.js`    | Phones, email, address, nav links, services, "why choose us", stats, FAQs    |
+| `site.js`    | Phones, email, address, social links, nav links, services, stats, FAQs       |
 | `packages.js`| Tour packages — price, itinerary, inclusions, badges, filters                |
 | `content.js` | Testimonials, gallery items, trending destinations, about-page copy          |
+| `payment.js` | UPI ID, payee name and the copy shown on the payment card                    |
+| `socials.js` | The Instagram / Facebook / WhatsApp rail used in hero, footer and contact    |
 | `images.js`  | Every photo used on the site (see below)                                     |
 
 ### Swapping the photography
@@ -67,6 +69,27 @@ The logo lives at `public/logo.png` and is used in the header, footer, favicon a
 The stat band (`stats` in `site.js`: 12,000+ travellers, 150+ destinations, 40+ packages)
 and the review counts / ratings on each package are **placeholders modelled on the
 approved design**. Replace them with the real figures before going live.
+
+Social links point at the live Instagram and Facebook profiles; the WhatsApp button uses
+`site.primaryPhone`.
+
+## UPI payments
+
+The payment QR appears in three places: a **Pay Now** button in the home hero (opens a modal),
+a mini card in the footer, and the full block at `/contact#payment`.
+
+`public/upi-qr.png` is generated from `payment.upiId` in `src/data/payment.js`:
+
+```bash
+npm run qr    # rewrites public/upi-qr.png and .svg
+```
+
+The encoded payload is `upi://pay?pa=<upiId>&pn=<payeeName>&cu=INR`, which any UPI app
+(GPay, PhonePe, Paytm, BHIM) can scan. If the business changes its UPI ID, edit
+`payment.js` and rerun `npm run qr` — nothing else needs touching.
+
+To use the bank's own QR artwork instead, drop the image in `public/` and point
+`payment.qr` at it.
 
 ## Enquiry handling
 

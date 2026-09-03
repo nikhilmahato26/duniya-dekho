@@ -16,9 +16,8 @@ export const site = {
   mapQuery: 'Silverline School Ukharra Road Rajpur Chungi Agra Uttar Pradesh 282001',
   hours: 'Mon – Sun · 9:00 AM – 9:00 PM',
   socials: {
-    facebook: 'https://facebook.com/',
-    instagram: 'https://instagram.com/',
-    youtube: 'https://youtube.com/',
+    instagram: 'https://www.instagram.com/duniya_dekho_travels',
+    facebook: 'https://www.facebook.com/share/17zAi61wHA/',
   },
 }
 

@@ -11,6 +11,7 @@ import { ProcessSteps } from '@/components/home/ProcessSteps'
 import { GalleryStrip } from '@/components/home/GalleryStrip'
 import { Testimonials } from '@/components/home/Testimonials'
 import { FaqSection } from '@/components/home/FaqSection'
+import { PaymentSection } from '@/components/common/PaymentSection'
 import { CtaBanner } from '@/components/home/CtaBanner'
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <ProcessSteps />
       <GalleryStrip />
       <Testimonials />
+      <PaymentSection className="py-20 lg:py-28" />
       <FaqSection className="bg-navy-50/50 py-20 lg:py-28" />
       <CtaBanner />
     </>

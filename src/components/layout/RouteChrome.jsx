@@ -7,16 +7,36 @@ export function RouteChrome() {
   const { pathname, hash } = useLocation()
 
   useEffect(() => {
-    if (hash) {
-      const id = hash.slice(1)
-      requestAnimationFrame(() => {
-        const el = document.getElementById(id)
-        if (el) scrollToElement(el)
-        else scrollToTop(true)
-      })
+    if (!hash) {
+      scrollToTop(true)
       return
     }
-    scrollToTop(true)
+
+    const id = hash.slice(1)
+    let cancelled = false
+
+    // Lazy routes and late-loading images shift the page, so re-aim at the
+    // target a few times until its position stops moving.
+    const aim = (attempt = 0) => {
+      if (cancelled) return
+      const el = document.getElementById(id)
+
+      if (!el) {
+        if (attempt < 8) setTimeout(() => aim(attempt + 1), 100)
+        else scrollToTop(true)
+        return
+      }
+
+      scrollToElement(el)
+      if (attempt < 5) setTimeout(() => aim(attempt + 1), 220)
+    }
+
+    const frame = requestAnimationFrame(() => aim())
+
+    return () => {
+      cancelled = true
+      cancelAnimationFrame(frame)
+    }
   }, [pathname, hash])
 
   return null

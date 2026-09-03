@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowRight, Plane, Sparkles, Star } from 'lucide-react'
+import { ArrowRight, Plane, QrCode, Sparkles, Star } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { PaymentDialog } from '@/components/common/PaymentDialog'
 import { useGsapParallax } from '@/hooks/useGsapParallax'
 import { IMG, photo } from '@/data/images'
 import { site } from '@/data/site'
+import { socialLinks } from '@/data/socials'
 
 const chips = ['Flights', 'Hotels', 'Trains', 'Tours', 'Visa Assistance']
 
@@ -108,15 +110,42 @@ export function Hero() {
             ))}
           </motion.div>
 
-          <motion.div variants={item} className="mt-9 flex flex-wrap items-center justify-center gap-3">
+          <motion.div
+            variants={item}
+            className="mt-9 flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:justify-center"
+          >
             <Button asChild variant="primary" size="lg">
               <Link to="/tour-packages">
                 Explore Packages <ArrowRight className="size-4" />
               </Link>
             </Button>
-            <Button asChild variant="glass" size="lg">
-              <Link to="/customized-tour">Plan A Custom Trip</Link>
-            </Button>
+
+            {/* Paired on phones so the hero CTAs stay within one screen. */}
+            <div className="flex gap-3">
+              <Button asChild variant="glass" size="lg" className="px-5 sm:px-8">
+                <Link to="/customized-tour">Plan A Custom Trip</Link>
+              </Button>
+              <PaymentDialog>
+                <Button variant="teal" size="lg" className="px-5 sm:px-8">
+                  <QrCode className="size-4" /> Pay Now
+                </Button>
+              </PaymentDialog>
+            </div>
+          </motion.div>
+
+          <motion.div variants={item} className="mt-7 flex items-center justify-center gap-2.5">
+            {socialLinks.map(({ label, href, icon: Icon, hover }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={label}
+                className={`grid size-11 place-items-center rounded-xl border border-white/20 bg-white/10 text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-transparent ${hover}`}
+              >
+                <Icon className="size-4.5" />
+              </a>
+            ))}
           </motion.div>
 
           <motion.div
