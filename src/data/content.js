@@ -45,6 +45,54 @@ export const testimonials = [
   },
 ]
 
+export const videoReviews = [
+  {
+    id: 'vid-rishab',
+    name: 'Mr. Rishab',
+    badge: 'Verified Traveller',
+    trip: 'Tour Experience & Feedback',
+    rating: 5,
+    duration: '0:43',
+    videoUrl: 'https://res.cloudinary.com/dynbpb9u0/video/upload/v1788882802/WhatsApp_Video_2026-09-06_at_06.05.28_pexwxo.mp4',
+    poster: '/reviews/review-rishab.jpg',
+    caption: 'Valuable feedback & holiday experience with Duniya Dekho Travels',
+  },
+  {
+    id: 'vid-jeet-singh',
+    name: 'Mr. Jeet Singh',
+    badge: 'Verified Traveller',
+    trip: 'Holiday Package Feedback',
+    rating: 5,
+    duration: '0:42',
+    videoUrl: 'https://res.cloudinary.com/dynbpb9u0/video/upload/v1788882799/WhatsApp_Video_2026-09-06_at_06.03.22_v5zvpf.mp4',
+    poster: '/reviews/review-jeet-singh.jpg',
+    caption: 'Great feedback on hotel, travel arrangements & smooth execution',
+  },
+  {
+    id: 'vid-jagruti-binita',
+    name: 'Jagruti Ben & Binita Ben',
+    badge: 'Verified Travellers',
+    trip: 'Holiday Tour Experience',
+    rating: 5,
+    duration: '0:23',
+    videoUrl: 'https://res.cloudinary.com/dynbpb9u0/video/upload/v1788882798/WhatsApp_Video_2026-09-06_at_04.31.17_devgus.mp4',
+    poster: '/reviews/review-jagruti-binita.jpg',
+    caption: 'Wonderful experience & memories with Aapke Safar Ka Sathi',
+  },
+  {
+    id: 'vid-ashish-patel',
+    name: 'Mr. Ashish Patel',
+    badge: 'Verified Traveller',
+    trip: 'Customer Review & Feedback',
+    rating: 5,
+    duration: '0:27',
+    videoUrl: 'https://res.cloudinary.com/dynbpb9u0/video/upload/v1788882797/WhatsApp_Video_2026-09-06_at_04.55.43_rdz62i.mp4',
+    poster: '/reviews/review-ashish-patel.jpg',
+    caption: 'Sharing heartfelt appreciation for transparent service & support',
+  },
+]
+
+
 export const galleryItems = [
   { id: IMG.kashmir, label: 'Kashmir', tag: 'Domestic' },
   { id: IMG.goa, label: 'Goa', tag: 'Domestic' },
